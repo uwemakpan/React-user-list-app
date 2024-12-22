@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.user-list-container {
+  text-align: center;
+  margin: auto auto;
+  display: grid;
+  padding: 20px;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.user-list-wrapper {
+  width: 40vw;
+  text-align: center;
+}
+
+.user-item {
+  background-color: #f4f4f4;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-item h2 {
+  margin: 0;
+  color: #333;
+}
+
+.user-item p {
+  color: #666;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1 {
+  color: #007bff;
+}
